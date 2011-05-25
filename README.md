@@ -19,10 +19,10 @@ Requires [XSBT](http://github.com/harrah/xsbt/tree/0.9).
     [info] Updating...
     [info] Done updating.
     [info] Set current project to default (in build file:/Users/maeda/scala/example/)    
-    sbt> set crossScalaVersions := Seq("2.7.7", "2.8.1", "2.9.0")
+    ** sbt> set crossScalaVersions := Seq("2.7.7", "2.8.1", "2.9.0") **
     [info] Reapplying settings...
     [info] Set current project to default (in build file:/Users/maeda/scala/example/)
-    sbt> run-all-version
+    ** sbt> run-all-version **
     [info] Reapplying settings...
     [info] Set current project to default (in build file:/Users/maeda/scala/example/)
     Compiling:
@@ -30,7 +30,7 @@ Requires [XSBT](http://github.com/harrah/xsbt/tree/0.9).
     Traversing /Users/maeda/scala/example/src/main/scala/Main.scala
     API phase took : 0.059 s
     [info] Running Main 
-    -- start : version 2.7.7.final --
+    ** -- start : version 2.7.7.final -- **
     [success] Total time: 5 s, completed 2011/05/25 22:17:20
     [info] Reapplying settings...
     [info] Set current project to default (in build file:/Users/maeda/scala/example/)
@@ -41,7 +41,7 @@ Requires [XSBT](http://github.com/harrah/xsbt/tree/0.9).
     Traversing /Users/maeda/scala/example/src/main/scala/Main.scala
     API phase took : 0.105 s
     [info] Running Main 
-    -- start : version 2.8.1.final --
+    ** -- start : version 2.8.1.final -- **
     [success] Total time: 3 s, completed 2011/05/25 22:17:24
     [info] Reapplying settings...
     Getting Scala 2.9.0 ...
@@ -58,5 +58,5 @@ Requires [XSBT](http://github.com/harrah/xsbt/tree/0.9).
     [warn] there were 1 deprecation warnings; re-run with -deprecation for details
     [warn] one warning found
     [info] Running Main 
-    -- start : version 2.9.0.final --
+    ** -- start : version 2.9.0.final -- **
     [success] Total time: 15 s, completed 2011/05/25 22:17:40
