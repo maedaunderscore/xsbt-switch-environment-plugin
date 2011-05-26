@@ -20,8 +20,10 @@ Requires [XSBT](http://github.com/harrah/xsbt/tree/0.9).
 
     > xsbt
     [info] Updating...
-    sbt> set crossScalaVersions := Seq("2.7.7", "2.8.1", "2.9.0")
+
+    set envList := Seq( ("2.8.1", Seq("")), ("2.9.0", Seq("-optimize")), ("2.9.0", Seq("-optimise")) )
     [info] Reapplying settings...
+    [info] Set current project to default (in build file:/Users/maeda/scala/example/)
 
     sbt> run-all-version
     [info] Reapplying settings...
@@ -32,7 +34,7 @@ Requires [XSBT](http://github.com/harrah/xsbt/tree/0.9).
     API phase took : 0.059 s
     [info] Running Main 
 
-    -- start : version 2.7.7.final --
+    -- start : version 2.8.1.final --
 
     [success] Total time: 5 s, completed 2011/05/25 22:17:20
     [info] Reapplying settings...
@@ -45,7 +47,7 @@ Requires [XSBT](http://github.com/harrah/xsbt/tree/0.9).
     API phase took : 0.105 s
     [info] Running Main 
 
-    -- start : version 2.8.1.final --
+    -- start : version 2.9.0.final --
 
     [success] Total time: 3 s, completed 2011/05/25 22:17:24
     [info] Reapplying settings...
