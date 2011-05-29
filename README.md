@@ -11,7 +11,7 @@ Requires [XSBT](http://github.com/harrah/xsbt/tree/0.9).
     > cd example
 
     > cat project/plugins/build.sbt
-    libraryDependencies <<= (libraryDependencies) { (deps) => deps :+ "maeda_" %% "switch-environment" % "0.1" }
+    libraryDependencies += "maeda_" %% "switch-environment" % "0.1"
 
     > cat src/main/scala/Main.scala
     object Main extends Application{
